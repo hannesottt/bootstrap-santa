@@ -1,0 +1,42 @@
+:root {
+    --santa-red: #BD152E;
+    --santa-red-alpha: rgba(189, 21, 46, 0.5);
+    --santa-green: #07A294;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#title {
+    padding: 3% 15%;
+    background-color: var(--santa-red);
+    color: white;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.navbar {
+    padding-bottom: 5.5em;
+    padding-left: 0;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+img[alt="telephone"] {
+    transform: rotate(15deg);
+}
+
+.nav-item {
+    padding: 0 1em;
+}
