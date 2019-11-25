@@ -4,6 +4,11 @@
     --santa-green: #07A294;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -34,9 +39,84 @@ h1 {
 }
 
 img[alt="telephone"] {
-    transform: rotate(15deg);
+    transform: rotate(10deg);
+    width: 80%;
 }
 
 .nav-item {
     padding: 0 1em;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box i {
+    color: var(--santa-red);
+}
+
+.feature-box i:hover {
+    color: var(--santa-green);
+} 
+
+div.row {
+    margin: 0;
+    padding: 0;
+}
+
+section#features {
+    padding: 7% 15%;
+    margin-top: 20px;
+}
+
+.feature-box h3 {
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+
+#testimonials {
+    background-color: var(--santa-red-alpha);
+    color: #fff;
+    text-align: center;
+    
+    line-height: 1.5;
+}
+
+.carousel-item h2 {
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2em;
+}
+
+section#press {
+    background-color: var(--santa-red-alpha);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+}
+
+section#pricing {
+    text-align: center;
+    margin-top: 15px;
+    padding: 3em;
+}
+
+.pricing-column {
+    margin-top: 15px;
 }
