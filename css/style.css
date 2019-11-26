@@ -120,3 +120,38 @@ section#pricing {
 .pricing-column {
     margin-top: 15px;
 }
+
+section#cta {
+    text-align: center;
+    background-color: var(--santa-red);
+    padding: 10em 0;
+}
+
+section#cta h3 {
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 3.5em;
+    color: white;
+    padding-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10em;
+}
+
+footer > i {
+    color: black;
+}
+
+footer p {
+    font-style: italic;
+    padding-top: 10px;
+}
+
+footer > a {
+    color: black;
+    margin: 0 7px;
+}
